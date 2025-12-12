@@ -12,10 +12,6 @@ variable "region" {
     default = "us-east-1"
 }
 
-variable "origin_domain_name" {
-    type = string
-    description = "S3 Origin"
-}
 
 variable "origin_arn" {
     type = string
